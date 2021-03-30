@@ -1,6 +1,3 @@
-# generates 2 random numbers
-# accepts a guess and returns true/false
-
 class Question
 
   attr_reader :num1, :num2

@@ -1,5 +1,3 @@
-# contains player id and score
-
 class Player
 
   attr_reader :id, :score
@@ -17,7 +15,3 @@ class Player
     @score > 0
   end 
 end  
-
-# player1 = Player.new
-# puts player1.is_alive?
-# puts player1.player_id?

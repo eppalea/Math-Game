@@ -1,9 +1,3 @@
-# create 2 players
-# update their scores on incorrect answers
-# run the game loop
-# creates a new turn each time through the loop
-# creates a new Question and handles input/output
-
 class Game
 
   def initialize
