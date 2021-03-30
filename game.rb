@@ -22,7 +22,8 @@ class Game
     else 
       puts "No dice! Lose a life."
       @current_player.lose_turn
-    end  
+    end
+    @question = Question.new
   end  
   
   def score

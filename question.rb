@@ -9,7 +9,7 @@ class Question
 
   def player_guess
     print "> "
-    guess = $stdin.gets.chomp.to_i
+    guess = gets.chomp.to_i
   end
 
   def answer
